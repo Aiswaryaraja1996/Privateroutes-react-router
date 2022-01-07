@@ -23,7 +23,7 @@ export default function Navbar() {
         >
           DASHBOARD
         </Link>
-        <Link style={{ textDecoration: "none", color: "white" }} to="/settings">
+        <Link style={{ textDecoration: "none", color: "white" }} to="/dashboard/settings">
           SETTINGS
         </Link>
       </div>

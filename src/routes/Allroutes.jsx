@@ -19,9 +19,9 @@ export default function Allroutes() {
         <Dashboard />
       </PrivateRoute>
  
-      <Route exact path="/settings">
+      <PrivateRoute exact path="/dashboard/settings">
         <Settings />
-      </Route>
+      </PrivateRoute>
     </Switch>
   );
 }
